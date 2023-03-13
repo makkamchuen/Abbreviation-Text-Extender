@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Key-Value Table</title>
+  <link rel="stylesheet" href="/options/options.css" />
+</head>
+
+<body>
+  <div class="import-container">
+    <div class="import-explore-container">
+      <div class="import-btn-container">
+        <input type="text" id="import-file-link-input" aria-label="Import file link input" placeholder="Import your Abberviation JSON file here" />
+        <button id="import-btn" aria-label="Import button">Import</button>
+      </div>
+      <div class="browse-btn-container">
+        <button id="browse-btn">Browse</button>
+        <input type="file" id="browse-file-input" aria-label="Browse button"/>
+      </div>
+    </div>
+  </div>
+  <div class="search-container">
+    <div class="search-input-container">
+      <label for="replace-key-input">Replace:</label>
+      <input type="text" id="replace-key-input" aria-label="Replace Key input"/>
+    </div>
+    <div class="search-input-container">
+      <label for="replace-value-input">With:</label>
+      <input type="text" id="replace-value-input" aria-label="Replace Value input"/>
+    </div>
+    <button id="add-row-btn" aria-label="Add or Update button">Add or Update</button>
+    <button id="clear-filter-btn" aria-label="Clear filter button">Clear filter</button>
+  </div>
+  <table id="my-table">
+    <thead>
+      <tr>
+        <th>Key</th>
+        <th>Value</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="/options/options.js"></script>
+</body>
+
+</html>

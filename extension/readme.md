@@ -1,0 +1,59 @@
+Abbreviation Text Extender
+===================
+
+Abbreviation Text Extender is a Chrome extension that allows users to expand a text automatically. The extension utilizes the Chrome Storage API to store the user-defined abbreviations and replace them with the expanded text whenever the user types them into any text input or textarea field on a webpage. The extension was designed with the goal of reducing typing time for users who may have difficulty with fine motor skills, including those with physical disabilities.
+
+Installation
+------------
+
+1.  Clone this repository or download the source code as a ZIP file and extract it to your local machine.
+2.  Open Google Chrome and navigate to `chrome://extensions`.
+3.  Toggle on the "Developer mode" switch on the top right corner of the page.
+4.  Click the "Load unpacked" button on the top left corner of the page.
+
+![A screenshot of the Chrome extension management page showing the toggle switch for 'Developer mode' in the top right corner of the page and the 'Load unpacked' button in the top left corner of the page.](./readme-images/develper-mode.jpg)
+
+5.  Select the extracted directory of the extension.
+
+How to Use
+----------
+
+1.  Open any webpage with a text input or textarea field.
+2.  Type any user-defined abbreviation into the input field.
+3.  The abbreviation should be replaced automatically with the correct spelling.
+
+User Guide
+----------
+### Navigating to the options page
+1. Click on the Extension icon in the Chrome toolbar.
+
+![A screenshot of the Chrome extension icon showing all installed extension and the Abbreviation Text Extender Chrome extension.](./readme-images/extension.jpg)
+
+2. Click on the "Go To Options" button.
+
+![A screenshot of the Abbreviation Text Extender's "Go To Options" button.](./readme-images/go-to-options.jpg)
+
+### Importing abbreviations
+1. Click on the Extension icon in the Chrome toolbar.
+2. Click on the "Go To Options" button.
+3. In the options page, click on the "Browse" button.
+4. Select the file containing the abbreviations
+
+### Adding abbreviations
+
+1.  Click on the Abbreviation Text Extender icon in the Chrome toolbar.
+2.  Click on the "Go To Options" button.
+3.  In the options page, type in the abbreviation in the "abbreviation" input field and the correct spelling in the "Correction" input field.
+4.  Click on the "Add" button to add the abbreviation and correction to the list.
+
+### Removing abbreviations
+
+1.  Click on the Abbreviation Text Extender icon in the Chrome toolbar.
+2.  Click on the "Go To Options" button.
+3.  Find the abbreviation and correction that you want to remove in the list.
+4.  Click on the "Delete" button to remove the abbreviation and correction from the list.
+
+License
+-------
+
+These codes are released under the MIT License. Feel free to use, modify, and distribute them as needed.
