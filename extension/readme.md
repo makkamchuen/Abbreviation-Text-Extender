@@ -5,6 +5,7 @@
     - [Navigating to the options page](#abbr_option_page)
     - [Importing abbreviations](#importing_abbreviations)
     - [Adding abbreviations](#adding_abbreviations)
+    - [Searching abbreviations](#searching_abbreviations)
     - [Removing abbreviations](#removing_abbreviations)
     - [License](#license)
 
@@ -49,14 +50,27 @@ The `extension` folder contains source code for the Chrome extension, as well as
 
 1.  Click on the Abbreviation Text Extender icon in the Chrome toolbar.
 2.  Click on the "Go To Options" button.
-3.  In the options page, type in the abbreviation in the "abbreviation" input field and the correct spelling in the "Correction" input field.
-4.  Click on the "Add" button to add the abbreviation and correction to the list.
+3.  In the options page, type in the abbreviation in the "Replace" input field and the expanded text in the "With" input field.
+4.  Click on the "Add or Update" button to add the abbreviation and expanded text to the list.
+
+## Searching abbreviations <a id="searching_abbreviations"></a>
+
+1.  Click on the Abbreviation Text Extender icon in the Chrome toolbar.
+2.  Click on the "Go To Options" button.
+3.  In the options page, type in the abbreviation in the "Replace" input field
+4.  The abbreviation and expanded text pair should show up in the list
+
+## Clearing search filter <a id="searching_abbreviations"></a>
+
+1.  Click on the Abbreviation Text Extender icon in the Chrome toolbar.
+2.  Click on the "Go To Options" button.
+3.  In the options page, click on the "Clear Filter" button to clear the search/replace filter
 
 ## Removing abbreviations <a id="removing_abbreviations"></a>
 
 1.  Click on the Abbreviation Text Extender icon in the Chrome toolbar.
 2.  Click on the "Go To Options" button.
-3.  Find the abbreviation and correction that you want to remove in the list.
+3.  Find the abbreviation and expanded text that you want to remove in the list.
 4.  Click on the "Delete" button to remove the abbreviation and correction from the list.
 
 ## License <a id="license"></a>
