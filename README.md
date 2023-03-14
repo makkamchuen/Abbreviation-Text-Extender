@@ -47,13 +47,15 @@ For the Abbreviation Text Extender, users can import abbreviations exported by t
 
 To import a list of abbreviations into the Abbreviation Text Extender, users can simply export their abbreviations from Microsoft Word and import them into the extension's options page. This streamlines the process of transferring existing abbreviations and incorporating them into the extension.
 
+![A flow diagram of  Microsoft Word AutoCorrect Abbreviation Import/Export Scripts that can import and export the abbreviation list and works together with Abbreviation Text Extender](./readme-images/diagram.jpg)
+
 # Disability Justice Perspective
 
 A disability studies perspective was fundamental in informing the design and implementation of the Abbreviation Text Extender. The extension was developed with the goal of promoting accessibility and inclusivity, empowering individuals with disabilities to overcome challenges related to typing and communication. By incorporating the perspectives and experiences of people with disabilities, the Abbreviation Text Extender represents a step forward in disability justice.
 
 ## Collective access <a id="collective_access"></a>
 
-Text expansion extension can promote collective access by providing a customizable tool that goes beyond able-bodied/minded normativity, allowing for a more inclusive and accessible communication environment. The Chrome extension is accessible by VoiceOver and keyboard navigation to meet the needs of a wider range of disabled individuals.
+Text expansion extension can promote collective access by providing a customizable tool that allowing for a more inclusive and accessible communication environment. The Chrome extension is accessible by VoiceOver and keyboard navigation to meet the needs of a wider range of disabled individuals.
 
 ## Leadership of those most impacted <a id="leadership_of_those_most_impacted"></a> 
 
