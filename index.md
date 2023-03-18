@@ -17,13 +17,13 @@
 
 ### Introduction <a id="introduction"></a>
 
-The Abbreviation Text Extender is a Chrome extension that aims to improve typing efficiency for people with disabilities. The extension enables users to create a list of abbreviations that automatically expand into the full text when typed into any text input field on a webpage. This feature can be particularly beneficial for individuals with limited mobility or dexterity, who may find it challenging to type quickly and accurately.
+The Abbreviation Text Extender, a Chromium extension, strives to enhance typing effectiveness for any individual. This extension allows users to generate a list of abbreviations that automatically expand into complete text when entered into any text input field on a web page.
 
 ### Problem <a id="problem"></a>
 
-The Abbreviation Text Extender was designed to address the challenges faced by people with disabilities, especially those with motor impairments, who may struggle with spelling and typing accuracy, resulting in slower communication. This tool allows users to create custom abbreviations that automatically expand into full text, reducing typing time and increasing accuracy.
+The Text Abbreviation Expander is designed to tackle challenges encountered by any individual, particularly those with motor impairments, who may have difficulties with spelling and typing accuracy, leading to slower communication. This tool enables users to establish custom abbreviations that automatically expand into complete text, minimizing typing time and enhancing precision.
 
-Following discussions with the client, the main requirement for the project is to develop an abbreviation expansion tool that can be used outside of Microsoft Word. The client expressed frustration with the limitations of Microsoft Word's abbreviation expansion feature, which only works within the program. The client also requested that the tool should have limited scrolling with large enough text to select by mouse.
+Following discussions with the client, the main requirement for the project is to develop an abbreviation expansion tool that can be used outside Microsoft Word. The client expressed dissatisfaction with the restrictions of Microsoft Word's abbreviation expansion feature, which only works within the program. The client also requested that the tool should have limited scrolling with large enough text to select by mouse.
 
 To meet these requirements, a chromium extension was proposed as the solution, which enable user to load the abbreviation directory into the browser and expand abbreviations as type. The client will also receive instructions on how to export their existing abbreviation directory from Microsoft Word.
 
