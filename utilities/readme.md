@@ -15,9 +15,9 @@ The Microsoft Word AutoCorrect Abbreviation Import/Export Scripts repository con
 
 -   `ms-word-abbr-import.ps1`: This PowerShell script reads a text file containing a list of Microsoft Word AutoCorrect abbreviations and their corresponding replacements, and then adds those entries to the AutoCorrect list in Word.
 
--   `ms-word-abbr-export.bat`: This batch script executes the `ms-word-abbr-export.ps1` PowerShell script in a Windows environment.
+-   `ms-abbr-export.bat`: This batch script executes the `ms-word-abbr-export.ps1` PowerShell script in a Windows environment.
 
--   `ms-word-abbr-import.bat`: This batch script executes the `ms-word-abbr-import.ps1` PowerShell script in a Windows environment.
+-   `ms-abbr-import.bat`: This batch script executes the `ms-word-abbr-import.ps1` PowerShell script in a Windows environment.
 
 ## How to Use <a id="how_to_use"></a>
 
